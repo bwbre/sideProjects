@@ -1,17 +1,20 @@
 ## sideProjects
 #Will contain various side projects, usually for practice and learning.
 
+<details>
+
 MAPGENERATOR: 
     currently experimenting with cell automata simulation. idea is to modify it and most likely combine it with other procgen methods like i saw from some videos online. ultimately i want to see if i can randomize the cell's behaviour and movement to randomly generate a map. 
         --possible approach: have the cell(s?) carve out paths in the grids and create walls when/if it changes directions.
             --modify or simplify the paths carved out so paths are cleaner.
             --figure out how to ensure pathing is random and that it ideally doesnt go over prev paths (for now)
 
+</details>
 
 
 
 
-
+<details>
 BANKING SYSTEM:
 Design a banking system that simulates basic banking operations such as account creation, deposits, withdrawals, and balance inquiries.
 
@@ -48,4 +51,6 @@ main menu for customer
     -EXIT
     
 end
+
+</details>
 
