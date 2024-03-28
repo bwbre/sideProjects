@@ -1,5 +1,5 @@
-# sideProjects
-Will contain various side projects, usually for practice and learning.
+## sideProjects
+#Will contain various side projects, usually for practice and learning.
 
 MAPGENERATOR: 
     currently experimenting with cell automata simulation. idea is to modify it and most likely combine it with other procgen methods like i saw from some videos online. ultimately i want to see if i can randomize the cell's behaviour and movement to randomly generate a map. 
