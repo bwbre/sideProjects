@@ -19,6 +19,8 @@ steps: get value n from user, then find n number SGPNs
 
 using namespace std; 
 
+bool checkPrime(int);
+
 int main() {
     int num = 0; // n number of SGPN numbers to be found.
     int tempSGPN = 0; // will temp store the value of any prime numbers that are found to be used in cheching whether is is a SGPN
