@@ -56,7 +56,7 @@ void List<T>::Resize(int newSize)
 }
 
 template < typename T >
-void List<T>::Clone(const List<T> &srcList) const
+void List<T>::Clone(const List<T> &srcList)
 {
     maxSize = srcList.maxSize;
     size = srcList.size;
@@ -81,5 +81,20 @@ void List<T>::Print() const
 template < typename T >
 void List<T>::Insert()
 {
+ 
+
+}
+
+template <typename T>
+void List<T>::Remove()
+{
+
+
+}
+
+template <typename T, >
+List& List<T>::Shift(int pos, cond C)
+{
+
 
 }

@@ -1,5 +1,5 @@
 
-template < typename T >
+template < typename T , condition C>
 class List 
 {
     const int size = 40;
@@ -25,13 +25,13 @@ private:
     int maxSize;
 
     void Resize(int newSize);
-    void Clone(const List<T> &) const;
-    void Shift();
+    void Clone(const List<T> &);
+    void Shift(int pos, cond C);
 };
 
 
 
-
+// ---- #INCLUDE .hpp file at the end of the .h file.
 
 
 
